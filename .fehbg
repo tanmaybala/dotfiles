@@ -1,0 +1,3 @@
+#!/bin/sh
+# feh --no-fehbg --bg-fill --randomize '/home/btanmay/D/tanmay/newWalls/'*
+feh --no-fehbg --bg-fill $HOME'/Pictures/Wallpapers/desktop.jpg'

@@ -1,0 +1,14 @@
+# Please follow the instructions.
+# To install enter the below command.
+
+sudo apt-get install i3lock-fancy feh conky compton i3-wm rofi terminator xbacklight pavucontrol pulsemixer fonts-font-awesome fonts-fork-awesome fonts-powerline
+cp -rf .fehbg .startup conky i3 terminator ~/.config/
+sudo cp ./xorg.conf /etc/X11/xorg.conf
+
+# Post installation "Login to i3" and enter this command.
+
+sudo add-apt-repository -y ppa:regolith-linux/stable
+sudo apt install i3-gaps
+
+# Extra if vim installed then copy .vimrc to ~/.vimrc
+
